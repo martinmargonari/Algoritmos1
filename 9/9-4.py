@@ -1,6 +1,7 @@
 def oraciones_mas_largas(texto):
     oraciones = texto.split(".")
     dict = {}
+    
     for oracion in oraciones:
         for letra in oracion:
             anterior = dict.get(letra.lower(), '')

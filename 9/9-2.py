@@ -19,7 +19,7 @@ def contar_caracteres(cadena):
             dict[c.lower()] += 1
 
     return dict
-        
+
 cadena = 'Que lindo día que hace hoy'
 print("CONTAR PALABRAS:")
 print(contar_palabras(cadena))
